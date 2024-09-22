@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(#d7d0d0, white);
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+}
+.header h1 {
+  margin-top: 0;
+  padding: 10px;
+}
+.title {
+  background-color: rgb(162, 186, 223);
+  color: blue;
+  line-height: 40px;
+  font-size: 25px;
+  position: relative;
+}
+.block {
+  padding: 10px;
+  position: relative;
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+.cn {
+  color: darkblue;
+}
+.cs {
+  color: deepskyblue;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+.img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  height: 500px;
+  width: auto;
+}
